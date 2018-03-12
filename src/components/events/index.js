@@ -2,12 +2,18 @@ import React from 'react';
 import tinytime from 'tinytime';
 
 export default class Events extends React.Component {
+  /**
+   * Default state.
+   */
   state = {
     events: []
   };
 
+  /**
+   * Fetch events on mount.
+   */
   componentDidMount() {
-    fetch('https://swedishtechevents.com/api/events.json')
+    fetch('/api/events.json')
       .then(res => res.json())
       .then(res => {
           this.setState({
@@ -16,7 +22,12 @@ export default class Events extends React.Component {
       });
   }
 
-  renderCard(event,i) {
+  /**
+   * Render card.
+   *
+   * @param {object} event
+   */
+  renderCard(event) {
     if (event.date < Date.now()) {
       return;
     }
@@ -50,6 +61,9 @@ export default class Events extends React.Component {
     );
   }
 
+  /**
+   * Render events list.
+   */
   render() {
       if (!this.state.events.length) {
         return <p>Loading...</p>;
