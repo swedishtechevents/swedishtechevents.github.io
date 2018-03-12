@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background: #4a90e2;
+}
+
+.header .title:not(:last-child) {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.header .subtitle {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 50rem;
+}
