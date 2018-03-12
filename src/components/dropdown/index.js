@@ -20,8 +20,6 @@ export default class Dropdown extends React.Component {
       selected: selected
     });
 
-    console.log(selected);
-
     if (this.props.onChange) {
       if (selected) {
         this.props.onChange(selected.value);
