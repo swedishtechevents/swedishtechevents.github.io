@@ -83,6 +83,13 @@ export default class Events extends React.Component {
       return true;
     });
 
+    // Clean up city.
+    events = events.map(event => {
+      event.city = event.city.replace(/\d+(\s|)\d+/, '').trim()
+
+      return event;
+    });
+
     // Filter events that should be listed.
     let listEvents = events;
 
@@ -122,7 +129,7 @@ export default class Events extends React.Component {
       event.city
     ))).map(c => {
       return {
-        label: c,
+        label: c.toLowerCase().replace(/^(.)|\s(.)/g, ($1) => $1.toUpperCase()),
         value: c
       };
     });
