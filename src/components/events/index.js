@@ -47,7 +47,18 @@ export default class Events extends React.Component {
             <div className='content'>
               <div dangerouslySetInnerHTML={{__html: description}} />
               <br />
-              <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>{tinytime('{YYYY}-{Mo}-{DD} {H}:{mm}:{ss}', { padMonth: true, padHours: true }).render(new Date(event.date))}</time>
+
+              <div className='tags has-addons'>
+                <span class='tag is-link is-medium'>
+                  <i className='fa fa-calendar' />
+                </span>
+                <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>{tinytime('{YYYY}-{Mo}-{DD} {H}:{mm}:{ss}', { padMonth: true, padHours: true }).render(new Date(event.date))}</time>
+                &nbsp;
+                <span class='tag is-link is-medium'>
+                  <i className='fa fa-building' />
+                </span>
+                <span class='tag is-light is-medium'>{event.city}</span>
+              </div>
             </div>
           </div>
           <footer className='card-footer'>
@@ -85,7 +96,8 @@ export default class Events extends React.Component {
 
     // Clean up city.
     events = events.map(event => {
-      event.city = event.city.replace(/\d+(\s|)\d+/, '').trim()
+      event.city = event.city.replace(/\d+(\s|)\d+/, '').trim();
+      event.city = event.city.toLowerCase().replace(/^(.)|\s(.)/g, ($1) => $1.toUpperCase());
 
       return event;
     });
@@ -129,7 +141,7 @@ export default class Events extends React.Component {
       event.city
     ))).map(c => {
       return {
-        label: c.toLowerCase().replace(/^(.)|\s(.)/g, ($1) => $1.toUpperCase()),
+        label: c,
         value: c
       };
     });
