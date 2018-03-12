@@ -17,13 +17,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "semistandard"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
     "semistandard": "^12.0.1"
   },
   "semistandard": {
+    "globals": ["fetch"],
     "parser": "babel-eslint"
   }
 }

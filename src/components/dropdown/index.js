@@ -32,7 +32,7 @@ export default class Dropdown extends React.Component {
   /**
    * Render dropdown.
    */
-  render() {
+  render () {
     const value = this.state.selected && this.state.selected.value;
     return (
       <Select
@@ -43,4 +43,4 @@ export default class Dropdown extends React.Component {
       />
     );
   }
-};
+}
