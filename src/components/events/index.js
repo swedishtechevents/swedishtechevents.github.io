@@ -9,7 +9,8 @@ export default class Events extends React.Component {
   state = {
     city: '',
     date: 0,
-    events: []
+    events: [],
+    search: ''
   };
 
   /**
@@ -65,7 +66,7 @@ export default class Events extends React.Component {
       return <p>Loading...</p>;
     }
 
-    const { city, date } = this.state;
+    const { city, date, search } = this.state;
     const todaysDate = new Date();
 
     // Get all events that hasn't passed (api may not up date)
@@ -99,6 +100,13 @@ export default class Events extends React.Component {
       });
     }
 
+    // Filter by search query if any.
+    if (search.length) {
+      listEvents = listEvents.filter(event => {
+        return event.title.toLowerCase().indexOf(search) !== -1 || ('' + event.description).toLowerCase().indexOf(search) !== -1;
+      });
+    }
+
     // Get dates to use for filter dropdown.
     const dates = Array.from(new Set(events.map(event => (
       tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))
@@ -123,14 +131,14 @@ export default class Events extends React.Component {
       <strong key='filters'>Filters</strong>,
       <div className='columns' key='columns-1'>
         <div className='column'>
-          <Dropdown key='dates' options={dates} placeholder='Select date...' onChange={(value) => {
+          <Dropdown key='dates' options={dates} placeholder='Select date...' onChange={value => {
             this.setState({
               date: Date.parse(value)
             });
           }} />
         </div>
         <div className='column'>
-          <Dropdown key='cities' options={cities} placeholder='Select city...' onChange={(value) => {
+          <Dropdown key='cities' options={cities} placeholder='Select city...' onChange={value => {
             this.setState({
               city: value
             });
@@ -140,7 +148,11 @@ export default class Events extends React.Component {
           <div className='Select is-clearable is-searchable Select--single'>
             <div className='Select-control'>
               <div className='Select-input'>
-                <input type='search' placeholder='Search...' />
+                <input type='search' placeholder='Search...' onChange={event => {
+                  this.setState({
+                    search: event.target.value
+                  });
+                }} />
               </div>
             </div>
           </div>
