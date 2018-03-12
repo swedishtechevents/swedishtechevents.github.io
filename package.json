@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "bulma": "^0.6.2",
+    "font-awesome": "^4.7.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
+    "react-select": "^1.2.1",
     "tinytime": "^0.2.6"
   },
   "scripts": {
