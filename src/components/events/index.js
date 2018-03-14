@@ -112,17 +112,17 @@ export default class Events extends React.Component {
     // Filter events that should be listed.
     let listEvents = events;
 
+    // Filter by month if any.
+    if (month) {
+      listEvents = listEvents.filter(event => {
+        return month === new Date(event.date).getMonth() + 1
+      });
+    }
+
     // Filter by city if any.
     if (city.length) {
       listEvents = listEvents.filter(e => {
         return e.city.toLowerCase() === city.toLowerCase();
-      });
-    }
-
-    // Filter by date if any.
-    if (month) {
-      listEvents = listEvents.filter(event => {
-        return month === new Date(event.date).getMonth() + 1
       });
     }
 
