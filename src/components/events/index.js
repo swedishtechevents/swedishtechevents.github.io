@@ -8,7 +8,7 @@ export default class Events extends React.Component {
    */
   state = {
     city: '',
-    date: 0,
+    month: 0,
     events: [],
     search: ''
   };
@@ -17,7 +17,7 @@ export default class Events extends React.Component {
    * Fetch events on mount.
    */
   componentDidMount () {
-    fetch('/api/events.json')
+    fetch('https://swedishtechevents.com/api/events.json')
       .then(res => res.json())
       .then(res => {
         this.setState({
@@ -49,15 +49,17 @@ export default class Events extends React.Component {
               <br />
 
               <div className='tags has-addons'>
-                <span class='tag is-link is-medium'>
+                <span className='tag is-link is-medium'>
                   <i className='fa fa-calendar' />
                 </span>
-                <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>{tinytime('{YYYY}-{Mo}-{DD} {H}:{mm}:{ss}', { padMonth: true, padHours: true }).render(new Date(event.date))}</time>
+                <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>
+                  {tinytime('{DD} {MMMM} {YYYY}, {H}:{mm}:{ss}', { padMonth: true, padHours: true }).render(new Date(event.date))}
+                </time>
                 &nbsp;
-                <span class='tag is-link is-medium'>
+                <span className='tag is-link is-medium'>
                   <i className='fa fa-building' />
                 </span>
-                <span class='tag is-light is-medium'>{event.city}</span>
+                <span className='tag is-light is-medium'>{event.city}</span>
               </div>
             </div>
           </div>
@@ -74,10 +76,10 @@ export default class Events extends React.Component {
    */
   render () {
     if (!this.state.events.length) {
-      return <p>Loading...</p>;
+      return <p>Loading events...</p>;
     }
 
-    const { city, date, search } = this.state;
+    const { city, month, search } = this.state;
     const todaysDate = new Date();
 
     // Get all events that hasn't passed (api may not up date)
@@ -92,6 +94,11 @@ export default class Events extends React.Component {
       }
 
       return true;
+    });
+
+    // Sort by date.
+    events = events.sort((a, b) => {
+      return a.date - b.date;
     });
 
     // Clean up city.
@@ -113,9 +120,9 @@ export default class Events extends React.Component {
     }
 
     // Filter by date if any.
-    if (date) {
+    if (month) {
       listEvents = listEvents.filter(event => {
-        return new Date(date).setHours(0, 0, 0, 0) === new Date(event.date).setHours(0, 0, 0, 0);
+        return month === new Date(event.date).getMonth() + 1
       });
     }
 
@@ -126,20 +133,25 @@ export default class Events extends React.Component {
       });
     }
 
-    // Get dates to use for filter dropdown.
-    const dates = Array.from(new Set(events.map(event => (
-      tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))
+    // Sort by date.
+    listEvents = listEvents.sort((a, b) => {
+      return a.date - b.date;
+    });
+
+    // Get months to use for filter dropdown.
+    const months = Array.from(new Set(events.map(event => (
+      tinytime('{MMMM}-{Mo}').render(new Date(event.date))
     )))).map(d => {
       return {
-        label: d,
-        value: d
+        label: d.split('-')[0],
+        value: d.split('-')[1]
       };
     });
 
       // Get cities to use for filter dropdown.
     const cities = Array.from(new Set(events.map(event =>
       event.city
-    ))).map(c => {
+    ))).sort((a, b) => a.localeCompare(b)).map(c => {
       return {
         label: c,
         value: c
@@ -150,9 +162,9 @@ export default class Events extends React.Component {
       <strong key='filters'>Filters</strong>,
       <div className='columns' key='columns-1'>
         <div className='column'>
-          <Dropdown key='dates' options={dates} placeholder='Select date...' onChange={value => {
+          <Dropdown key='months' options={months} placeholder='Select month...' onChange={value => {
             this.setState({
-              date: Date.parse(value)
+              month: parseInt(value, 10)
             });
           }} />
         </div>
