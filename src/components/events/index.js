@@ -17,7 +17,7 @@ export default class Events extends React.Component {
    * Fetch events on mount.
    */
   componentDidMount () {
-    fetch('https://swedishtechevents.com/api/events.json')
+    fetch('/api/events.json')
       .then(res => res.json())
       .then(res => {
         this.setState({
