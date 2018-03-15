@@ -10,10 +10,10 @@ class App extends Component {
         <Header title='Swedish Tech Events' subtitle='Events for developers, technologists, and other geeks in Sweden' />
         <main className='section'>
           <div className='container'>
-            <h3 className='title is-3'>About</h3>
+            <h2 className='title is-3'>About</h2>
             <p>Lorem ipsum dolor sit amet, cu vel legere civibus delicata, ex dolores perfecto tincidunt usu. Pro ut natum iracundia, graeco utroque detraxit ad eos, mel id vocent diceret. Sonet saperet assueverit pro at, at ridens facilisis posidonium cum. Mei ex nostrum periculis. Eum prodesset vituperatoribus in, consulatu temporibus cu vis. <a href='https://github.com/swedishtechevents/events/issues/new' rel='noopener noreferrer' target='_blank'>Missing your event? Submit it!</a></p>
             <br />
-            <h3 className='title is-3'>Upcoming events</h3>
+            <h2 className='title is-3'>Upcoming events</h2>
             <Events />
           </div>
         </main>
