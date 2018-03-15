@@ -4,8 +4,12 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .header {
-  background: #4a90e2;
+  background: #3273dc;
 }
 
 .header .title:not(:last-child) {
@@ -17,6 +21,17 @@ body {
   color: #fff;
   margin: 0 auto;
   max-width: 50rem;
+}
+
+.card {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card:hover h3,
+.card:focus h3{
+  text-decoration: underline;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */

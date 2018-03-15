@@ -39,15 +39,12 @@ export default class Events extends React.Component {
 
     return (
       <div className='column is-half' key={event.link}>
-        <div className='card'>
-          <header className='card-header'>
-            <p className='card-header-title'>{event.title}</p>
-          </header>
+        <a href={event.link} target='_blank' rel='noopener noreferrer' className='card'>
+          <div className='card-header'>
+            <h3 className='card-header-title'>{event.title}</h3>
+          </div>
           <div className='card-content'>
             <div className='content'>
-              <div dangerouslySetInnerHTML={{__html: description}} />
-              <br />
-
               <div className='tags has-addons'>
                 <span className='tag is-link is-medium'>
                   <i className='fa fa-calendar' />
@@ -61,12 +58,10 @@ export default class Events extends React.Component {
                 </span>
                 <span className='tag is-light is-medium'>{event.city}</span>
               </div>
+              <div dangerouslySetInnerHTML={{__html: description}} />
             </div>
           </div>
-          <footer className='card-footer'>
-            <a href={event.link} target='_blank' rel='noopener noreferrer' className='card-footer-item'>Read more</a>
-          </footer>
-        </div>
+        </a>
       </div>
     );
   }
