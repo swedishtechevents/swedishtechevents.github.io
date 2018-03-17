@@ -32,10 +32,6 @@ export default class Events extends React.Component {
    * @param {object} event
    */
   renderCard (event) {
-    // Remove images from description.
-    const description = event.description ? event.description
-      .replace(/<img[^>]*>/g, '') : '';
-
     return (
       <div className='column is-half' key={event.link}>
         <a href={event.link} target='_blank' rel='noopener noreferrer' className='card'>
@@ -57,7 +53,7 @@ export default class Events extends React.Component {
                 </span>
                 <span className='tag is-light is-medium'>{event.city}</span>
               </div>
-              <div>{description}</div>
+              <div>{event.description || ''}</div>
             </div>
           </div>
         </a>
