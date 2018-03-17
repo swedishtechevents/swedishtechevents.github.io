@@ -37,7 +37,7 @@ export default class Dropdown extends React.Component {
     return (
       <Select
         placeholder={this.props.placeholder}
-        value={value}
+        value={value || this.props.value}
         onChange={this.handleChange.bind(this)}
         options={this.props.options}
       />

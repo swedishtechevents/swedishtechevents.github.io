@@ -2,6 +2,23 @@ import React from 'react';
 import tinytime from 'tinytime';
 import Dropdown from '../dropdown';
 
+/**
+ * Convert object to query string.
+ *
+ * @param  {object} obj
+ *
+ * @return {string}
+ */
+const toQuery = (obj) => {
+  let query = '?';
+
+  for (let key in obj) {
+    query += key + '=' + obj[key] + '&';
+  }
+
+  return query.slice(0, -1);
+};
+
 export default class Events extends React.Component {
   /**
    * Default state.
@@ -17,6 +34,17 @@ export default class Events extends React.Component {
    * Fetch events on mount.
    */
   componentDidMount () {
+    const qs = decodeURIComponent(window.location.search.toLowerCase());
+    const city = /city=(.*?)&/.exec(qs) || [];
+    const month = /month=(\w+)/.exec(qs) || [];
+    const search = /search=(.*?)$/.exec(qs) || [];
+
+    this.setState({
+      city: city.length > 1 ? city[1] : '',
+      month: month.length > 1 ? month[1] : '',
+      search: search.length > 1 ? search[1] : ''
+    });
+
     fetch('/api/events.json')
       .then(res => res.json())
       .then(res => {
@@ -108,7 +136,7 @@ export default class Events extends React.Component {
     // Filter by month if any.
     if (month) {
       listEvents = listEvents.filter(event => {
-        return month === new Date(event.date).getMonth() + 1;
+        return parseInt(month, 10) === new Date(event.date).getMonth() + 1;
       });
     }
 
@@ -147,7 +175,7 @@ export default class Events extends React.Component {
     ))).sort((a, b) => a.localeCompare(b)).map(c => {
       return {
         label: c,
-        value: c
+        value: c.toLowerCase()
       };
     });
 
@@ -156,16 +184,34 @@ export default class Events extends React.Component {
       <strong key='filters'>Filters</strong>,
       <div className='columns' key='columns-1'>
         <div className='column'>
-          <Dropdown key='months' options={months} placeholder='Select month...' onChange={value => {
+          <Dropdown key='months' options={months} placeholder='Select month...' value={month} onChange={value => {
             this.setState({
               month: parseInt(value, 10)
+            });
+
+            this.props.history.push({
+              pathname: '/',
+              search: toQuery({
+                month: value,
+                city: city,
+                search: search
+              })
             });
           }} />
         </div>
         <div className='column'>
-          <Dropdown key='cities' options={cities} placeholder='Select city...' onChange={value => {
+          <Dropdown key='cities' options={cities} placeholder='Select city...' value={city} onChange={value => {
             this.setState({
               city: value
+            });
+
+            this.props.history.push({
+              pathname: '/',
+              search: toQuery({
+                month: month,
+                city: value,
+                search: search
+              })
             });
           }} />
         </div>
@@ -173,9 +219,18 @@ export default class Events extends React.Component {
           <div className='Select is-clearable is-searchable Select--single'>
             <div className='Select-control'>
               <div className='Select-input'>
-                <input type='search' placeholder='Search...' onChange={event => {
+                <input type='search' placeholder='Search...' defaultValue={search} onChange={event => {
                   this.setState({
                     search: event.target.value
+                  });
+
+                  this.props.history.push({
+                    pathname: '/',
+                    search: toQuery({
+                      month: month,
+                      city: city,
+                      search: event.target.value
+                    })
                   });
                 }} />
               </div>
