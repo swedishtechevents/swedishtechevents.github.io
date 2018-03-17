@@ -57,7 +57,7 @@ export default class Events extends React.Component {
                 </span>
                 <span className='tag is-light is-medium'>{event.city}</span>
               </div>
-              <div dangerouslySetInnerHTML={{__html: description}} />
+              <div>{description}</div>
             </div>
           </div>
         </a>
