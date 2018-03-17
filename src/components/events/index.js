@@ -70,7 +70,10 @@ export default class Events extends React.Component {
    */
   render () {
     if (!this.state.events.length) {
-      return <p>Loading events...</p>;
+      return [
+        <h2 key='upcomming-events1' className='title is-3'>Upcoming events</h2>,
+        <p key='loading'>Loading events...</p>
+      ];
     }
 
     const { city, month, search } = this.state;
@@ -114,7 +117,7 @@ export default class Events extends React.Component {
     }
 
     // Filter by city if any.
-    if (city.length) {
+    if (city && city.length) {
       listEvents = listEvents.filter(e => {
         return e.city.toLowerCase() === city.toLowerCase();
       });
@@ -153,6 +156,7 @@ export default class Events extends React.Component {
     });
 
     return [
+      <h2 key='upcomming-events2' className='title is-3'>Upcoming events ({listEvents.length})</h2>,
       <strong key='filters'>Filters</strong>,
       <div className='columns' key='columns-1'>
         <div className='column'>
