@@ -34,8 +34,7 @@ export default class Events extends React.Component {
   renderCard (event) {
     // Remove images from description.
     const description = event.description ? event.description
-      .replace(/<img[^>]*>/g, '')
-      .substring(0, 200) + '...' : '';
+      .replace(/<img[^>]*>/g, '') : '';
 
     return (
       <div className='column is-half' key={event.link}>
