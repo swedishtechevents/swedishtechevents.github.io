@@ -35,7 +35,7 @@ export default class Events extends React.Component {
    */
   componentDidMount () {
     const qs = decodeURIComponent(window.location.search.toLowerCase());
-    const city = /city=(.*?)&/.exec(qs) || [];
+    const city = /city=(.*?)(?:&|$)/.exec(qs) || [];
     const month = /month=(\w+)/.exec(qs) || [];
     const search = /search=(.*?)$/.exec(qs) || [];
 
