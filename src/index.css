@@ -34,6 +34,18 @@ a {
   text-decoration: underline;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color:#aaa;
 }
