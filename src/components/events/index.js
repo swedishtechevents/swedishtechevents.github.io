@@ -70,14 +70,14 @@ export default class Events extends React.Component {
             <div className='content'>
               <div className='tags has-addons'>
                 <span className='tag is-link is-medium'>
-                  <i className='fa fa-calendar' />
+                  <span className='fa fa-calendar' aria-hidden="true" />
                 </span>
                 <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>
                   {tinytime('{DD} {MMMM} {YYYY}, {H}:{mm}:{ss}', { padMonth: true, padHours: true }).render(new Date(event.date))}
                 </time>
                 &nbsp;
                 <span className='tag is-link is-medium'>
-                  <i className='fa fa-building' />
+                  <span className='fa fa-building' />
                 </span>
                 <span className='tag is-light is-medium'>{event.city}</span>
               </div>
@@ -217,9 +217,10 @@ export default class Events extends React.Component {
         </div>
         <div className='column'>
           <div className='Select is-clearable is-searchable Select--single'>
+            <label for="search" className="visually-hidden">Search</label>
             <div className='Select-control'>
               <div className='Select-input'>
-                <input type='search' placeholder='Search...' defaultValue={search} onChange={event => {
+                <input id="search" type='search' placeholder='Search...' defaultValue={search} onChange={event => {
                   this.setState({
                     search: event.target.value
                   });
