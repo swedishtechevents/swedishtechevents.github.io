@@ -184,7 +184,7 @@ export default class Events extends React.Component {
       <strong key='filters'>Filters</strong>,
       <div className='columns' key='columns-1'>
         <div className='column'>
-          <Dropdown key='months' options={months} placeholder='Select month...' value={month} onChange={value => {
+          <Dropdown label="Month" key='months' options={months} placeholder='Select month...' value={month} onChange={value => {
             this.setState({
               month: parseInt(value, 10)
             });
@@ -200,7 +200,7 @@ export default class Events extends React.Component {
           }} />
         </div>
         <div className='column'>
-          <Dropdown key='cities' options={cities} placeholder='Select city...' value={city} onChange={value => {
+          <Dropdown label="City" key='cities' options={cities} placeholder='Select city...' value={city} onChange={value => {
             this.setState({
               city: value
             });
