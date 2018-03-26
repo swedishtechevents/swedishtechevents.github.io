@@ -238,7 +238,7 @@ export default class Events extends React.Component {
           </div>
         </div>
       </div>,
-      <div className='columns is-multiline' key='columns-2'>{listEvents.map(this.renderCard)}</div>
+      <div className='columns is-multiline' aria-live="polite" key='columns-2'>{listEvents.map(this.renderCard)}</div>
     ];
   }
 }
