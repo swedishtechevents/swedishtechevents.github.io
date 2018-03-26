@@ -36,6 +36,7 @@ export default class Dropdown extends React.Component {
     const value = this.state.selected && this.state.selected.value;
     return (
       <Select
+        aria-label={this.props.label}
         placeholder={this.props.placeholder}
         value={value || this.props.value}
         onChange={this.handleChange.bind(this)}
