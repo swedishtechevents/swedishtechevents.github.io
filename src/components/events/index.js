@@ -97,6 +97,11 @@ export default class Events extends React.Component {
                   <span className='fa fa-building' />
                 </span>
                 <span className='tag is-light is-medium'>{event.city}</span>
+                &nbsp;
+                <span className='tag is-link is-medium'>
+                  <i className='fa fa-dollar' />
+                </span>
+                <span className='tag is-light is-medium'>{event.free ? 'Free' : 'Cost'}</span>
               </div>
               <div>{event.description || ''}</div>
             </div>
