@@ -19,6 +19,23 @@ const toQuery = (obj) => {
   return query.slice(0, -1);
 };
 
+/**
+ * Get uniq events.
+ *
+ * @param  {array} events
+ *
+ * @return {array}
+ */
+const uniqEvents = (events) => {
+  const events2 = {};
+  events.forEach(event => {
+    if (typeof event === 'object' && !events2[event.link]) {
+      events2[event.link] = event;
+    }
+  });
+  return Object.values(events2);
+};
+
 export default class Events extends React.Component {
   /**
    * Default state.
@@ -49,7 +66,7 @@ export default class Events extends React.Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          events: res
+          events: uniqEvents(res)
         });
       });
   }
