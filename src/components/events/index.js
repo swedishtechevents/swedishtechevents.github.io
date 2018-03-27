@@ -45,7 +45,7 @@ export default class Events extends React.Component {
       search: search.length > 1 ? search[1] : ''
     });
 
-    fetch('/api/events.json')
+    fetch('https://swedishtechevents.com/api/events.json')
       .then(res => res.json())
       .then(res => {
         this.setState({
