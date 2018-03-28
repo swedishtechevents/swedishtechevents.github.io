@@ -111,7 +111,7 @@ export default class Events extends React.Component {
                   <span className='fa fa-calendar' aria-hidden="true" />
                 </span>
                 <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>
-                  {tinytime('{DD} {MMMM} {YYYY}, {H}:{mm}:{ss}', { padMonth: true, padHours: true }).render(new Date(event.date))}
+                  {tinytime('{DD} {MMMM} {YYYY}, {H}:{mm}', { padMonth: true, padHours: true }).render(new Date(event.date))}
                 </time>
                 &nbsp;
                 <span className='tag is-link is-medium'>
