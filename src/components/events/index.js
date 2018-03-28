@@ -72,6 +72,27 @@ export default class Events extends React.Component {
   }
 
   /**
+   * Render fee icon if event is not free.
+   *
+   * @param  {object} event
+   */
+  renderFee(event) {
+    if (event.free) {
+      return;
+    }
+
+    return (
+      <div>
+        &nbsp;
+        <span className='tag is-link is-medium'>
+          <i className='fa fa-dollar' />
+        </span>
+        <span className='tag is-light is-medium'>Fee</span>
+      </div>
+    );
+  }
+
+  /**
    * Render card.
    *
    * @param {object} event
@@ -97,11 +118,7 @@ export default class Events extends React.Component {
                   <span className='fa fa-building' />
                 </span>
                 <span className='tag is-light is-medium'>{event.city}</span>
-                &nbsp;
-                <span className='tag is-link is-medium'>
-                  <i className='fa fa-dollar' />
-                </span>
-                <span className='tag is-light is-medium'>{event.free ? 'Free' : 'Cost'}</span>
+                {this.renderFee(event)}
               </div>
               <div>{event.description || ''}</div>
             </div>
@@ -261,7 +278,7 @@ export default class Events extends React.Component {
           </div>
         </div>
       </div>,
-      <div className='columns is-multiline' aria-live="polite" key='columns-2'>{listEvents.map(this.renderCard)}</div>
+      <div className='columns is-multiline' aria-live="polite" key='columns-2'>{listEvents.map(this.renderCard.bind(this))}</div>
     ];
   }
 }
