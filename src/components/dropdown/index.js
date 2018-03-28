@@ -7,7 +7,7 @@ export default class Dropdown extends React.Component {
    * Default state.
    */
   state = {
-    selected: null
+    selected: null,
   };
 
   /**
@@ -15,9 +15,9 @@ export default class Dropdown extends React.Component {
    *
    * @param {object} selected
    */
-  handleChange (selected) {
+  handleChange(selected) {
     this.setState({
-      selected: selected
+      selected: selected,
     });
 
     if (this.props.onChange) {
@@ -32,7 +32,7 @@ export default class Dropdown extends React.Component {
   /**
    * Render dropdown.
    */
-  render () {
+  render() {
     const value = this.state.selected && this.state.selected.value;
     return (
       <Select
