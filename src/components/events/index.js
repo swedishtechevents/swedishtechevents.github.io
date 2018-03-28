@@ -1,7 +1,7 @@
 import React from 'react';
 import tinytime from 'tinytime';
-import Dropdown from '../Dropdown';
-import Event from '../Event';
+import Dropdown from '../dropdown';
+import Event from '../event';
 
 /**
  * Convert object to query string.

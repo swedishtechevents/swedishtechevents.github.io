@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header';
-import Events from './components/Events';
-import Footer from './components/Footer';
+import Header from './components/header';
+import Events from './components/events';
+import Footer from './components/footer';
 
 export default props => (
   <div>
@@ -15,7 +15,7 @@ export default props => (
           Events are fetched from{' '}
           <a href="https://www.meetup.com/">meetup.com</a> and{' '}
           <a href="https://www.eventbrite.com/">eventbrite.com</a> that is
-          categorized with tech and from our GitHub.{' '}
+          categorized with tech and from our GitHub every hour.{' '}
           <a
             href="https://github.com/swedishtechevents/events/issues/new"
             rel="noopener noreferrer"
