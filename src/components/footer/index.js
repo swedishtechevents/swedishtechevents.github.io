@@ -30,6 +30,16 @@ export default ({ children }) => (
           >
             Source code
           </a>
+          &nbsp;
+          -
+          &nbsp;
+          <a
+            href="https://twitter.com/swetechevents"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            @swetechevents
+          </a>
         </p>
         <p>© {new Date().getFullYear()}</p>
       </div>
