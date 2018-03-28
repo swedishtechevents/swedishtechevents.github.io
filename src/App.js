@@ -25,7 +25,7 @@ export default props => (
           </a>
         </p>
         <br />
-        <Events history={this.props.history} />
+        <Events history={props.history} />
       </div>
     </main>
     <Footer />
