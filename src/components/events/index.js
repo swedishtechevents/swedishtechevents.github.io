@@ -1,6 +1,7 @@
 import React from 'react';
 import tinytime from 'tinytime';
-import Dropdown from '../dropdown';
+import Dropdown from '../Dropdown';
+import Event from '../Event';
 
 /**
  * Convert object to query string.
@@ -9,7 +10,7 @@ import Dropdown from '../dropdown';
  *
  * @return {string}
  */
-const toQuery = (obj) => {
+const toQuery = obj => {
   let query = '?';
 
   for (let key in obj) {
@@ -26,7 +27,7 @@ const toQuery = (obj) => {
  *
  * @return {array}
  */
-const uniqEvents = (events) => {
+const uniqEvents = events => {
   const events2 = {};
   events.forEach(event => {
     if (typeof event === 'object' && !events2[event.link]) {
@@ -44,13 +45,13 @@ export default class Events extends React.Component {
     city: '',
     month: 0,
     events: [],
-    search: ''
+    search: '',
   };
 
   /**
    * Fetch events on mount.
    */
-  componentDidMount () {
+  componentDidMount() {
     const qs = decodeURIComponent(window.location.search.toLowerCase());
     const city = /city=(.*?)(?:&|$)/.exec(qs) || [];
     const month = /month=(\w+)/.exec(qs) || [];
@@ -59,83 +60,28 @@ export default class Events extends React.Component {
     this.setState({
       city: city.length > 1 ? city[1] : '',
       month: month.length > 1 ? month[1] : '',
-      search: search.length > 1 ? search[1] : ''
+      search: search.length > 1 ? search[1] : '',
     });
 
     fetch('https://swedishtechevents.com/api/events.json')
       .then(res => res.json())
       .then(res => {
         this.setState({
-          events: uniqEvents(res)
+          events: uniqEvents(res),
         });
       });
   }
 
   /**
-   * Render fee icon if event is not free.
-   *
-   * @param  {object} event
-   */
-  renderFee(event) {
-    if (event.free) {
-      return;
-    }
-
-    return (
-      <div>
-        &nbsp;
-        <span className='tag is-link is-medium'>
-          <i className='fa fa-dollar' />
-        </span>
-        <span className='tag is-light is-medium'>Fee</span>
-      </div>
-    );
-  }
-
-  /**
-   * Render card.
-   *
-   * @param {object} event
-   */
-  renderCard (event) {
-    return (
-      <div className='column is-half' key={event.link}>
-        <a href={event.link} target='_blank' rel='noopener noreferrer' className='card'>
-          <div className='card-header'>
-            <h3 className='card-header-title'>{event.title}</h3>
-          </div>
-          <div className='card-content'>
-            <div className='content'>
-              <div className='tags has-addons'>
-                <span className='tag is-link is-medium'>
-                  <span className='fa fa-calendar' aria-hidden="true" />
-                </span>
-                <time className='tag is-light is-medium' dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(new Date(event.date))}>
-                  {tinytime('{DD} {MMMM} {YYYY}, {H}:{mm}', { padMonth: true, padHours: true }).render(new Date(event.date))}
-                </time>
-                &nbsp;
-                <span className='tag is-link is-medium'>
-                  <span className='fa fa-building' />
-                </span>
-                <span className='tag is-light is-medium'>{event.city}</span>
-                {this.renderFee(event)}
-              </div>
-              <div>{event.description || ''}</div>
-            </div>
-          </div>
-        </a>
-      </div>
-    );
-  }
-
-  /**
    * Render events list.
    */
-  render () {
+  render() {
     if (!this.state.events.length) {
       return [
-        <h2 key='upcomming-events1' className='title is-3'>Upcoming events</h2>,
-        <p key='loading'>Loading events...</p>
+        <h2 key="upcomming-events1" className="title is-3">
+          Upcoming events
+        </h2>,
+        <p key="loading">Loading events...</p>,
       ];
     }
 
@@ -164,7 +110,9 @@ export default class Events extends React.Component {
     // Clean up city.
     events = events.map(event => {
       event.city = event.city.replace(/\d+(\s|)\d+/, '').trim();
-      event.city = event.city.toLowerCase().replace(/^(.)|\s(.)/g, ($1) => $1.toUpperCase());
+      event.city = event.city
+        .toLowerCase()
+        .replace(/^(.)|\s(.)/g, $1 => $1.toUpperCase());
 
       return event;
     });
@@ -189,7 +137,10 @@ export default class Events extends React.Component {
     // Filter by search query if any.
     if (search.length) {
       listEvents = listEvents.filter(event => {
-        return event.title.toLowerCase().indexOf(search) !== -1 || ('' + event.description).toLowerCase().indexOf(search) !== -1;
+        return (
+          event.title.toLowerCase().indexOf(search) !== -1 ||
+          ('' + event.description).toLowerCase().indexOf(search) !== -1
+        );
       });
     }
 
@@ -199,86 +150,118 @@ export default class Events extends React.Component {
     });
 
     // Get months to use for filter dropdown.
-    const months = Array.from(new Set(events.map(event => (
-      tinytime('{MMMM}-{Mo}').render(new Date(event.date))
-    )))).map(d => {
+    const months = Array.from(
+      new Set(
+        events.map(event =>
+          tinytime('{MMMM}-{Mo}').render(new Date(event.date)),
+        ),
+      ),
+    ).map(d => {
       return {
         label: d.split('-')[0],
-        value: d.split('-')[1]
+        value: d.split('-')[1],
       };
     });
 
-      // Get cities to use for filter dropdown.
-    const cities = Array.from(new Set(events.map(event =>
-      event.city
-    ))).sort((a, b) => a.localeCompare(b)).map(c => {
-      return {
-        label: c,
-        value: c.toLowerCase()
-      };
-    });
+    // Get cities to use for filter dropdown.
+    const cities = Array.from(new Set(events.map(event => event.city)))
+      .sort((a, b) => a.localeCompare(b))
+      .map(c => {
+        return {
+          label: c,
+          value: c.toLowerCase(),
+        };
+      });
 
     return [
-      <h2 key='upcomming-events2' className='title is-3'>Upcoming events ({listEvents.length})</h2>,
-      <strong key='filters'>Filters</strong>,
-      <div className='columns' key='columns-1'>
-        <div className='column'>
-          <Dropdown label="Month" key='months' options={months} placeholder='Select month...' value={month} onChange={value => {
-            this.setState({
-              month: parseInt(value, 10)
-            });
+      <h2 key="upcomming-events2" className="title is-3">
+        Upcoming events ({listEvents.length})
+      </h2>,
+      <strong key="filters">Filters</strong>,
+      <div className="columns" key="columns-1">
+        <div className="column">
+          <Dropdown
+            label="Month"
+            key="months"
+            options={months}
+            placeholder="Select month..."
+            value={month}
+            onChange={value => {
+              this.setState({
+                month: parseInt(value, 10),
+              });
 
-            this.props.history.push({
-              pathname: '/',
-              search: toQuery({
-                month: value,
-                city: city,
-                search: search
-              })
-            });
-          }} />
+              this.props.history.push({
+                pathname: '/',
+                search: toQuery({
+                  month: value,
+                  city: city,
+                  search: search,
+                }),
+              });
+            }}
+          />
         </div>
-        <div className='column'>
-          <Dropdown label="City" key='cities' options={cities} placeholder='Select city...' value={city} onChange={value => {
-            this.setState({
-              city: value
-            });
-
-            this.props.history.push({
-              pathname: '/',
-              search: toQuery({
-                month: month,
+        <div className="column">
+          <Dropdown
+            label="City"
+            key="cities"
+            options={cities}
+            placeholder="Select city..."
+            value={city}
+            onChange={value => {
+              this.setState({
                 city: value,
-                search: search
-              })
-            });
-          }} />
-        </div>
-        <div className='column'>
-          <div className='Select is-clearable is-searchable Select--single'>
-            <label for="search" className="visually-hidden">Search</label>
-            <div className='Select-control'>
-              <div className='Select-input'>
-                <input id="search" type='search' placeholder='Search...' defaultValue={search} onChange={event => {
-                  this.setState({
-                    search: event.target.value
-                  });
+              });
 
-                  this.props.history.push({
-                    pathname: '/',
-                    search: toQuery({
-                      month: month,
-                      city: city,
-                      search: event.target.value
-                    })
-                  });
-                }} />
+              this.props.history.push({
+                pathname: '/',
+                search: toQuery({
+                  month: month,
+                  city: value,
+                  search: search,
+                }),
+              });
+            }}
+          />
+        </div>
+        <div className="column">
+          <div className="Select is-clearable is-searchable Select--single">
+            <label htmlFor="search" className="visually-hidden">
+              Search
+            </label>
+            <div className="Select-control">
+              <div className="Select-input">
+                <input
+                  id="search"
+                  type="search"
+                  placeholder="Search..."
+                  defaultValue={search}
+                  onChange={event => {
+                    this.setState({
+                      search: event.target.value,
+                    });
+
+                    this.props.history.push({
+                      pathname: '/',
+                      search: toQuery({
+                        month: month,
+                        city: city,
+                        search: event.target.value,
+                      }),
+                    });
+                  }}
+                />
               </div>
             </div>
           </div>
         </div>
       </div>,
-      <div className='columns is-multiline' aria-live="polite" key='columns-2'>{listEvents.map(this.renderCard.bind(this))}</div>
+      <div className="columns is-multiline" aria-live="polite" key="columns-2">
+        {listEvents.map(event => (
+          <Event key={event.link} event={event} renderFee={this.renderFee} />
+        ))}
+      </div>,
     ];
   }
 }
