@@ -34,7 +34,7 @@ export default ({ event }) => (
               <span className="fa fa-building" />
             </span>
             <span className="tag is-light is-medium">{event.city}</span>
-            {event.fee && (
+            {!event.free && (
               <div>
                 &nbsp;
                 <span className="tag is-link is-medium">
