@@ -1,0 +1,1127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+BEGIN:VEVENT
+UID:gwew@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180423T130000Z
+SUMMARY:HP-Connect Sweden VMS SIG & Annual Meeting
+URL;VALUE=URI:https://www.eventbrite.com/e/hp-connect-sweden-vms-sig-annua
+ l-meeting-tickets-42639545027?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:sfk6@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180423T150000Z
+SUMMARY:BLOXPO Meetup
+URL;VALUE=URI:https://www.meetup.com/BLOXPO-Meetup/events/249937492/
+END:VEVENT
+BEGIN:VEVENT
+UID:jh2p@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180423T160000Z
+SUMMARY:Meetup #2! - Stockholm Vue.js Meetup
+URL;VALUE=URI:https://www.meetup.com/Stockholm-Vue-js-Meetup/events/248802
+ 969/
+END:VEVENT
+BEGIN:VEVENT
+UID:a2u7@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T060000Z
+SUMMARY:AI Breakfast @ The Ground - Malmö.ai
+URL;VALUE=URI:https://www.meetup.com/Malmo-ai/events/249489814/
+END:VEVENT
+BEGIN:VEVENT
+UID:hh99@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T100000Z
+SUMMARY:Man v. Machine: What Does AI Mean For Our Jobs? - Malmö.ai
+URL;VALUE=URI:https://www.meetup.com/Malmo-ai/events/249489905/
+END:VEVENT
+BEGIN:VEVENT
+UID:v1x1@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T150000Z
+SUMMARY:Hashgraph: Disrupting Blockchain and Building the Trust Layer of t
+ he Internet - Hashgraph - Stockholm Sweden
+URL;VALUE=URI:https://www.meetup.com/Hashgraph-Stockholm-Sweden/events/248
+ 450657/
+END:VEVENT
+BEGIN:VEVENT
+UID:25w6@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T153000Z
+SUMMARY:Inside the future @ Chalmers Human - Technology - Design Grad. Sch
+ ool - Got UX - An IxDA local chapter
+URL;VALUE=URI:https://www.meetup.com/got-ux/events/249452898/
+END:VEVENT
+BEGIN:VEVENT
+UID:qk0e@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T153000Z
+SUMMARY:Graph Nite - Code Nite @ CGI
+URL;VALUE=URI:https://www.meetup.com/codenite/events/249737340/
+END:VEVENT
+BEGIN:VEVENT
+UID:hait@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T153000Z
+SUMMARY:Malmö C++ User Group - Meeting 0x0
+URL;VALUE=URI:https://www.meetup.com/Malmo-C-User-Group/events/249024892/
+END:VEVENT
+BEGIN:VEVENT
+UID:oern@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T153000Z
+SUMMARY:The Code Pub - IoT\, Embedded programming workshop - The Code Pub 
+ - Stockholm
+URL;VALUE=URI:https://www.meetup.com/The-Code-Pub-Stockholm/events/2496670
+ 20/
+END:VEVENT
+BEGIN:VEVENT
+UID:um53@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T153000Z
+SUMMARY:Kom igång med Blockchain i Azure - Swenug Göteborg
+URL;VALUE=URI:https://www.meetup.com/Swenug-Goteborg/events/249497071/
+END:VEVENT
+BEGIN:VEVENT
+UID:3j8c@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T153000Z
+SUMMARY:TrailheaDX 2018 Global Gathering - Stockholm Salesforce Developer 
+ Group
+URL;VALUE=URI:https://www.meetup.com/Stockholm-Force-com-Developer-User-Gr
+ oup/events/247542130/
+END:VEVENT
+BEGIN:VEVENT
+UID:mwmg@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T160000Z
+SUMMARY:Privacy by Design - 1 - Foo Café Stockholm
+URL;VALUE=URI:https://www.meetup.com/foocafe/events/249668035/
+END:VEVENT
+BEGIN:VEVENT
+UID:4gsn@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T160000Z
+SUMMARY:3D med Three.js - CodePen Örebro
+URL;VALUE=URI:https://www.meetup.com/CodePen-Orebro/events/248479561/
+END:VEVENT
+BEGIN:VEVENT
+UID:xeyu@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T160000Z
+SUMMARY:Videum Codeup - Våren 2018
+URL;VALUE=URI:https://www.meetup.com/videumcodeup/events/249601396/
+END:VEVENT
+BEGIN:VEVENT
+UID:fae4@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T160000Z
+SUMMARY:Stockholm AI Summit #8: Starting a company in AI & health - Stockh
+ olm.AI
+URL;VALUE=URI:https://www.meetup.com/StockholmAI/events/249826813/
+END:VEVENT
+BEGIN:VEVENT
+UID:l1wc@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180424T180000Z
+SUMMARY:TWSS Meetup #3 – How technology can enable deep\, meaningful relat
+ ionships
+URL;VALUE=URI:https://www.eventbrite.com/e/twss-meetup-3-how-technology-ca
+ n-enable-deep-meaningful-relationships-tickets-45014440403?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:1q29@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T060000Z
+SUMMARY:This weeks Lean Coffee - Stockholm Lean Coffee
+URL;VALUE=URI:https://www.meetup.com/Stockholm-Lean-Coffee/events/24993302
+ 3/
+END:VEVENT
+BEGIN:VEVENT
+UID:r3xy@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T063000Z
+SUMMARY:Agila Ledarskapsdagen - Squeed Agile presenterar en dag med talare
+  & open space - Agila Ledarskapsdagen Göteborg
+URL;VALUE=URI:https://www.meetup.com/Agila-Ledarskapsdagen/events/24802241
+ 3/
+END:VEVENT
+BEGIN:VEVENT
+UID:ofvf@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T150000Z
+SUMMARY:nForum Q2 -- DDD\, API versioning och EventStore - nforum
+URL;VALUE=URI:https://www.meetup.com/nforum/events/249593184/
+END:VEVENT
+BEGIN:VEVENT
+UID:tbqx@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T151500Z
+SUMMARY:Javaforum Q2 2018 - Javaforum Göteborg
+URL;VALUE=URI:https://www.meetup.com/Javaforum-Goteborg/events/246859957/
+END:VEVENT
+BEGIN:VEVENT
+UID:f40y@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T153000Z
+SUMMARY: Blockchain beyond cryptocurrency - Trendspotting@LU - Agile Topic
+ s and Networking Meetup
+URL;VALUE=URI:https://www.meetup.com/Agile-Topics-and-Networking-Meetup/ev
+ ents/249911861/
+END:VEVENT
+BEGIN:VEVENT
+UID:nkr0@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T153000Z
+SUMMARY:Meetup #3 - Software Dev Linköping
+URL;VALUE=URI:https://www.meetup.com/SoftwareDevLinkoping/events/246961087
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:1tb4@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T160000Z
+SUMMARY:Workshop: Avancerad prototyping med Sketch och REACT - UX People S
+ tockholm
+URL;VALUE=URI:https://www.meetup.com/UX-People-Stockholm/events/248766955/
+END:VEVENT
+BEGIN:VEVENT
+UID:0s3l@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T160000Z
+SUMMARY:Göteborg Lounge hack #40 - Göteborg Lounge Hackers
+URL;VALUE=URI:https://www.meetup.com/Goteborg-Lounge-Hackers/events/249909
+ 144/
+END:VEVENT
+BEGIN:VEVENT
+UID:jnu0@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180425T160000Z
+SUMMARY:Getting to know STL Algorithms - gbgcpp - Gothenburg C++ Meetup
+URL;VALUE=URI:https://www.meetup.com/gbgcpp/events/249715963/
+END:VEVENT
+BEGIN:VEVENT
+UID:lqrg@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T070000Z
+SUMMARY:🚀 Effective Java Software Design for Developers | Stockholm\, Apr
+ il - 🚀 Effective Java Training Stockholm
+URL;VALUE=URI:https://www.meetup.com/Effective-Java-training-Stockholm/eve
+ nts/249120194/
+END:VEVENT
+BEGIN:VEVENT
+UID:dai6@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T080000Z
+SUMMARY:MOBILE HEIGHTS MASTERCLASS - Corporate Incubation & Startup Collab
+ oration
+URL;VALUE=URI:https://www.eventbrite.com/e/mobile-heights-masterclass-corp
+ orate-incubation-startup-collaboration-registration-44877464705?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:c567@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:Magnus Svensson & Andreas Rossholm about AV1-codec - STHLM Streami
+ ng
+URL;VALUE=URI:https://www.meetup.com/STHLM-Streaming/events/248917016/
+END:VEVENT
+BEGIN:VEVENT
+UID:0j76@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:Woominar - seminarier med tech-inriktning på WooCode - Woominar - 
+ Seminarier med tech-inriktning på WooCode
+URL;VALUE=URI:https://www.meetup.com/Woominar-seminarier-med-tech-inriktni
+ ng-pa-WooCode/events/249460548/
+END:VEVENT
+BEGIN:VEVENT
+UID:lnko@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:Optimize your UX - Bring your app\, website or product and get fee
+ dback! - Stockholm UX Optimization
+URL;VALUE=URI:https://www.meetup.com/Stockholm-UX-Optimization/events/2499
+ 40414/
+END:VEVENT
+BEGIN:VEVENT
+UID:v83g@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:WordPress Gbg 1 / 2018 - WordPress Göteborg
+URL;VALUE=URI:https://www.meetup.com/WordPress-Gothenburg/events/249269047
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:6vo6@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:Startup Dojo S06E05 - Malmö Startups
+URL;VALUE=URI:https://www.meetup.com/Malmo-Startups/events/249200921/
+END:VEVENT
+BEGIN:VEVENT
+UID:iqtb@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:C++ Stockholm 0x0C\, CMake workshop - SwedenCpp
+URL;VALUE=URI:https://www.meetup.com/swedencpp/events/249645632/
+END:VEVENT
+BEGIN:VEVENT
+UID:vaf1@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:Regaining Control with State Monad and Friends - Scala Stockholm
+URL;VALUE=URI:https://www.meetup.com/Scala-Stockholm/events/249699097/
+END:VEVENT
+BEGIN:VEVENT
+UID:riy4@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T153000Z
+SUMMARY:GDG April 2018 - Stockholm Google Developer Group
+URL;VALUE=URI:https://www.meetup.com/Stockholm-Google-Developer-Group/even
+ ts/249464612/
+END:VEVENT
+BEGIN:VEVENT
+UID:dn8y@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T160000Z
+SUMMARY:Consortium Databases\, a new paradigm for private and public block
+ chains - Decentralized Camp - Stockholm
+URL;VALUE=URI:https://www.meetup.com/decentralized-camp/events/249496429/
+END:VEVENT
+BEGIN:VEVENT
+UID:8l3b@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T160000Z
+SUMMARY:Show and tell\, code smell? - Göteborg Laravel Meetup
+URL;VALUE=URI:https://www.meetup.com/Goteborg-Laravel-Meetup-Fully-Studios
+ /events/249627685/
+END:VEVENT
+BEGIN:VEVENT
+UID:l2en@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T160000Z
+SUMMARY:Gamification meetup #10 - Mission IX ✌🏽 - Gamification World Meet
+ ups Scandinavia
+URL;VALUE=URI:https://www.meetup.com/GamificationWorldMeetupScandinavia/ev
+ ents/249766522/
+END:VEVENT
+BEGIN:VEVENT
+UID:7o0n@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180426T160000Z
+SUMMARY:WooCommerce med Klarna Checkout - WordPress Westeros
+URL;VALUE=URI:https://www.meetup.com/WordPress-Westeros/events/248373699/
+END:VEVENT
+BEGIN:VEVENT
+UID:k1yx@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180427T060000Z
+SUMMARY:Agila Göteborg hos Alten
+URL;VALUE=URI:https://www.meetup.com/Agila-Goteborg/events/249602990/
+END:VEVENT
+BEGIN:VEVENT
+UID:kzdu@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180427T063000Z
+SUMMARY:UNIQE OPPORTUNITY FOR GREEN STARTUPS: A CHANCE TO WIN 500 000 EURO
+  - Synch Meetup
+URL;VALUE=URI:https://www.meetup.com/Synch-Meetup/events/249896381/
+END:VEVENT
+BEGIN:VEVENT
+UID:qmri@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180427T070000Z
+SUMMARY:Foodtech Village - How to hustle a trade show with Tomas Bennich -
+  Sweden FoodTech
+URL;VALUE=URI:https://www.meetup.com/SthlmFoodTech/events/249603096/
+END:VEVENT
+BEGIN:VEVENT
+UID:q36s@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180427T110000Z
+SUMMARY:WTF är datahubben Sesam Tour of 2018? - DEV People Borlänge
+URL;VALUE=URI:https://www.meetup.com/DEV-People-Borlange/events/249678516/
+END:VEVENT
+BEGIN:VEVENT
+UID:b5g4@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180428T080000Z
+SUMMARY:Evolve demoparty - Evolve technology
+URL;VALUE=URI:https://www.meetup.com/evolve-technology/events/249665500/
+END:VEVENT
+BEGIN:VEVENT
+UID:ydbm@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T150000Z
+SUMMARY:Mjukvarutestning handlar om människor\, inte bara kod - JST - Jönk
+ öping Software Testers
+URL;VALUE=URI:https://www.meetup.com/JST-Jonkoping-Software-Testers/events
+ /249497399/
+END:VEVENT
+BEGIN:VEVENT
+UID:t0ku@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T150000Z
+SUMMARY:HR-Tech Meetup - Stockholm HR-Tech Meetup
+URL;VALUE=URI:https://www.meetup.com/Stockholm-HR-Tech-Meetup/events/24704
+ 7952/
+END:VEVENT
+BEGIN:VEVENT
+UID:jjlu@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T153000Z
+SUMMARY:Episerver.Forms och tillgängliga formulär - EPiServer-utvecklare\,
+  Stockholm
+URL;VALUE=URI:https://www.meetup.com/EPiServer-Stockholm/events/247993910/
+END:VEVENT
+BEGIN:VEVENT
+UID:e9on@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T160000Z
+SUMMARY:What is Power BI and what is new? - Sweden Power BI User Group
+URL;VALUE=URI:https://www.meetup.com/Sweden-Power-BI-User-Group/events/249
+ 867702/
+END:VEVENT
+BEGIN:VEVENT
+UID:wfcp@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T160000Z
+SUMMARY:Build your first iOS app - CocoaHeads Göteborg
+URL;VALUE=URI:https://www.meetup.com/cocoaheads-goteborg/events/247312526/
+END:VEVENT
+BEGIN:VEVENT
+UID:j4js@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T160000Z
+SUMMARY:Agile Topics and Networking Meetup
+URL;VALUE=URI:https://www.meetup.com/Agile-Topics-and-Networking-Meetup/ev
+ ents/249913296/
+END:VEVENT
+BEGIN:VEVENT
+UID:4yjs@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180502T170000Z
+SUMMARY:First Wednesday Malmö Meetup - Malmö Bitcoin Users
+URL;VALUE=URI:https://www.meetup.com/Malmo-Bitcoin-Users/events/249894687/
+END:VEVENT
+BEGIN:VEVENT
+UID:fin2@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180503T133000Z
+SUMMARY:How to start your network automation journey! - Network Automation
+  Stockholm
+URL;VALUE=URI:https://www.meetup.com/Network-Automation-Stockholm/events/2
+ 49190532/
+END:VEVENT
+BEGIN:VEVENT
+UID:cish@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180503T143000Z
+SUMMARY:One Team Gov SE - Uppstart i sydväst - One Team Gov Västsverige
+URL;VALUE=URI:https://www.meetup.com/otg-vastsverige/events/248895481/
+END:VEVENT
+BEGIN:VEVENT
+UID:6qaf@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180503T153000Z
+SUMMARY:Clean Code & Personal Development using colours - Sigma Smart Deve
+ lopers Society Gothenburg
+URL;VALUE=URI:https://www.meetup.com/SSDS-Gothenburg/events/249934273/
+END:VEVENT
+BEGIN:VEVENT
+UID:zfao@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180503T153000Z
+SUMMARY:Clean Code & Personal development using colors - Sigma Smart Devel
+ opers Society Stockholm
+URL;VALUE=URI:https://www.meetup.com/SSDS-Stockholm/events/249970190/
+END:VEVENT
+BEGIN:VEVENT
+UID:8fhg@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180503T154500Z
+SUMMARY:Big Data and Machine Learning from a Telco’s Perspective - Knock D
+ ata Stockholm
+URL;VALUE=URI:https://www.meetup.com/Knock-Data-Stockholm/events/249632918
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:x3rp@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180503T174500Z
+SUMMARY:Big Data and Machine Learning from a Telco’s Perspective
+URL;VALUE=URI:https://www.eventbrite.com/e/big-data-and-machine-learning-f
+ rom-a-telcos-perspective-tickets-45375228530?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:k7rc@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180504T053000Z
+SUMMARY:'Växtvärk'   - Stefan Claesson från Squeed Agile - Agila Ledare
+URL;VALUE=URI:https://www.meetup.com/Agila-Ledare/events/246637932/
+END:VEVENT
+BEGIN:VEVENT
+UID:qi6u@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180507T153000Z
+SUMMARY:Evening of Jenkins: Jenkins as Code and Multi-branch pipelines - D
+ evOps Skåne
+URL;VALUE=URI:https://www.meetup.com/devopskane/events/246897703/
+END:VEVENT
+BEGIN:VEVENT
+UID:wq2t@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180507T153000Z
+SUMMARY:Delphimöte - Användargruppen för Delphi i Göteborg
+URL;VALUE=URI:https://www.meetup.com/delphi-gbg/events/249605457/
+END:VEVENT
+BEGIN:VEVENT
+UID:mu82@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180507T154500Z
+SUMMARY:Wally Quevedo: Cloud Native Messaging with the NATS project - Goth
+ enburg Tech Radar
+URL;VALUE=URI:https://www.meetup.com/Gothenburg-Tech-Radar/events/24829396
+ 0/
+END:VEVENT
+BEGIN:VEVENT
+UID:iorn@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180507T160000Z
+SUMMARY:STHLM TECH MEETUP with ALTOR - STHLM TECH Meetup
+URL;VALUE=URI:https://www.meetup.com/STHLM-Tech-Meetup/events/249837061/
+END:VEVENT
+BEGIN:VEVENT
+UID:88c9@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T063000Z
+SUMMARY:GDPR Meetup - vad hinner du egentligen med på 72 timmar? - Stockho
+ lm GDPR Meetup
+URL;VALUE=URI:https://www.meetup.com/Stockholm-GDPR-Meetup/events/24969961
+ 5/
+END:VEVENT
+BEGIN:VEVENT
+UID:kmhu@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T083000Z
+SUMMARY:Symetri Engineering Forum - Göteborg
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-got
+ eborg-registrering-44363529511?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:fcnx@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T120000Z
+SUMMARY:UXDX conference Europe - Enhance your Process\, Advance you Produc
+ t - UX People Stockholm
+URL;VALUE=URI:https://www.meetup.com/UX-People-Stockholm/events/249825010/
+END:VEVENT
+BEGIN:VEVENT
+UID:0dho@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T120000Z
+SUMMARY:UXDX conference Europe - Enhance your Process\, Advance you Produc
+ t - Stockholm Software Craftsmanship
+URL;VALUE=URI:https://www.meetup.com/Stockholm-Software-Craftsmanship/even
+ ts/249827458/
+END:VEVENT
+BEGIN:VEVENT
+UID:ggl0@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T140000Z
+SUMMARY:Di Health Tech Pitch Day - Di Digital Health Tech Pitch Day
+URL;VALUE=URI:https://www.meetup.com/Di-Digital-Health-Tech-Pitch-Day/even
+ ts/245228290/
+END:VEVENT
+BEGIN:VEVENT
+UID:fhfq@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T151500Z
+SUMMARY:Google I/O Extended 2018 - Javaforum Göteborg
+URL;VALUE=URI:https://www.meetup.com/Javaforum-Goteborg/events/248329362/
+END:VEVENT
+BEGIN:VEVENT
+UID:ffl8@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T153000Z
+SUMMARY:Google I/O Extended 2018 Malmö - Javaforum Malmö
+URL;VALUE=URI:https://www.meetup.com/Javaforum-Malmo/events/249968946/
+END:VEVENT
+BEGIN:VEVENT
+UID:bv8s@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T154500Z
+SUMMARY:Wally Quevedo: Reliable microservices in Go using NATS - Go West
+URL;VALUE=URI:https://www.meetup.com/sweden-go-west/events/248294110/
+END:VEVENT
+BEGIN:VEVENT
+UID:s3th@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180508T160000Z
+SUMMARY:Early summer reunion - Haskell Stockholm
+URL;VALUE=URI:https://www.meetup.com/Haskell-Stockholm/events/249828457/
+END:VEVENT
+BEGIN:VEVENT
+UID:aasu@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180509T083000Z
+SUMMARY:Symetri Engineering Forum - Lund
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-lun
+ d-registrering-43932092070?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:ng0s@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180509T100000Z
+SUMMARY:Mindpark Tech - Code Lunch w. Tretton37
+URL;VALUE=URI:https://www.meetup.com/Mindpark-Tech/events/249415995/
+END:VEVENT
+BEGIN:VEVENT
+UID:3jy6@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180509T150000Z
+SUMMARY:Google I/O 2018 - Gothenburg / Extended by Devies - Devies Gothenb
+ urg
+URL;VALUE=URI:https://www.meetup.com/Devies-Gothenburg/events/248728512/
+END:VEVENT
+BEGIN:VEVENT
+UID:jwy7@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180513T033000Z
+SUMMARY:Machine Learning & Deep Learning Specialization Bootcamp - Hands-O
+ n with Python\, Scikit-learn\, TensorFlow | Live Instructor-Led Classes | 
+ Certification & Projects Included | 100% Moneyback Guarantee | Stockholm\,
+  Sweden
+URL;VALUE=URI:https://www.eventbrite.com/e/machine-learning-deep-learning-
+ specialization-bootcamp-hands-on-with-python-scikit-learn-tensorflow-ticke
+ ts-39357686901?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:ifky@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180514T153000Z
+SUMMARY:HA Secret Server! Secure And Store tokens\, passwords\, certificat
+ es\, API keys - Skåne HashiCorp User Group
+URL;VALUE=URI:https://www.meetup.com/HashiCorp-Skane/events/249152950/
+END:VEVENT
+BEGIN:VEVENT
+UID:gboa@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180515T063000Z
+SUMMARY:SYNCHWAKEUP: DO’S AND DONT’S FOR DIGITAL SERVICE PROVIDER’S AND ON
+ LINE TRADERS - Synch Meetup
+URL;VALUE=URI:https://www.meetup.com/Synch-Meetup/events/246960602/
+END:VEVENT
+BEGIN:VEVENT
+UID:bf0b@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180515T070000Z
+SUMMARY:Symetri Engineering Forum - Luleå
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-lul
+ ea-registrering-43931931590?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:n0l5@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180515T150000Z
+SUMMARY:GO SEE TECH TALKS #4: Unit Tests - How To Keep Them From Breaking
+URL;VALUE=URI:https://www.meetup.com/Go-See-Tech-Talks/events/249739394/
+END:VEVENT
+BEGIN:VEVENT
+UID:y97x@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180515T153000Z
+SUMMARY:Coverage Cravings - How to test effectively in Go - Go Malmö
+URL;VALUE=URI:https://www.meetup.com/Go-Malmo/events/249662046/
+END:VEVENT
+BEGIN:VEVENT
+UID:qwx9@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180515T153000Z
+SUMMARY:Umeå ML mini-conference - Umeå Machine Learning
+URL;VALUE=URI:https://www.meetup.com/Umea-ML/events/249504957/
+END:VEVENT
+BEGIN:VEVENT
+UID:z27r@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180516T053000Z
+SUMMARY:Science! by Infotiv
+URL;VALUE=URI:https://www.meetup.com/Science-by-Infotiv/events/248922015/
+END:VEVENT
+BEGIN:VEVENT
+UID:00ow@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180516T070000Z
+SUMMARY:Symetri Engineering Forum - Skellefteå
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-ske
+ lleftea-registrering-43932178328?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:d24i@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180516T080000Z
+SUMMARY:AWS Summit Stockholm 2018
+URL;VALUE=URI:https://aws.amazon.com/summits/Stockholm-2018/
+END:VEVENT
+BEGIN:VEVENT
+UID:957p@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180516T083000Z
+SUMMARY:Symetri Engineering Forum - Växjö
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-vax
+ jo-registrering-43932149241?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:7cxt@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180516T160000Z
+SUMMARY:Scaling Out Backends for Mobile Apps - Foo Café Stockholm
+URL;VALUE=URI:https://www.meetup.com/foocafe/events/249737522/
+END:VEVENT
+BEGIN:VEVENT
+UID:htmt@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180517T083000Z
+SUMMARY:Symetri Engineering Forum - Oskarshamn
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-osk
+ arshamn-registrering-43932202400?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:chq1@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180517T150000Z
+SUMMARY:Tales from the Road: Data Engineering - Tales from the road: Data 
+ Science & ML
+URL;VALUE=URI:https://www.meetup.com/Tales-from-the-road-Data-Science-ML/e
+ vents/249673570/
+END:VEVENT
+BEGIN:VEVENT
+UID:7rgh@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180517T153000Z
+SUMMARY:Machine Learning Introduction at Omegapoint - Duchess Sweden
+URL;VALUE=URI:https://www.meetup.com/Duchess-Sweden/events/249987168/
+END:VEVENT
+BEGIN:VEVENT
+UID:lxrv@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180517T154500Z
+SUMMARY:Dataclasses by Alexander Hultnér from Cetrez - GothPy
+URL;VALUE=URI:https://www.meetup.com/GothPy/events/249499024/
+END:VEVENT
+BEGIN:VEVENT
+UID:65hi@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180517T160000Z
+SUMMARY:ProductTank Sthlm May - ProductTank Stockholm
+URL;VALUE=URI:https://www.meetup.com/ProductTank-Stockholm/events/24987831
+ 0/
+END:VEVENT
+BEGIN:VEVENT
+UID:rpp0@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180517T160000Z
+SUMMARY:t12t meetup #11 - Global Accessibility Awareness Day - t12t - Stoc
+ kholm
+URL;VALUE=URI:https://www.meetup.com/t12t-Stockholm/events/249644060/
+END:VEVENT
+BEGIN:VEVENT
+UID:8odk@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180518T083000Z
+SUMMARY:Science and Coffee – the plastic challenge
+URL;VALUE=URI:https://www.eventbrite.com/e/science-and-coffee-the-plastic-
+ challenge-registration-44699428193?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:65nd@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180518T131500Z
+SUMMARY:Jan Gulliksen ”Gulan” – Digitaliseringens transformerande kraft
+URL;VALUE=URI:https://www.eventbrite.com/e/jan-gulliksen-gulan-digitaliser
+ ingens-transformerande-kraft-tickets-44873191925?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:n9m8@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180520T163000Z
+SUMMARY:Big Data With Hadoop Certification Training Bootcamp - Live Instru
+ ctor-Led Classes | Certification & Project Included | 100% Moneyback Guara
+ ntee | Stockholm\, Sweden
+URL;VALUE=URI:https://www.eventbrite.com/e/big-data-with-hadoop-certificat
+ ion-training-bootcamp-live-instructor-led-classes-certification-tickets-41
+ 306558027?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:lhy1@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180520T163000Z
+SUMMARY:Big Data With Hadoop & Spark Certification Training Bootcamp - Liv
+ e Instructor-Led Classes | Certification & Project Included | 100% Moneyba
+ ck Guarantee | Stockholm\, Sweden
+URL;VALUE=URI:https://www.eventbrite.com/e/big-data-with-hadoop-spark-cert
+ ification-training-bootcamp-live-instructor-led-classes-tickets-3719770333
+ 2?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:kt8d@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180522T150000Z
+SUMMARY:Business Design meets Digital Sustainability - Business Design - G
+ öteborg
+URL;VALUE=URI:https://www.meetup.com/Business-Design-Goteborg/events/24973
+ 3224/
+END:VEVENT
+BEGIN:VEVENT
+UID:rhal@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180523T083000Z
+SUMMARY:Symetri Engineering Forum - Stockholm
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-sto
+ ckholm-registrering-44365789270?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:gf4d@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180523T153000Z
+SUMMARY:Agila Testare - Återkommer om kvällens tema
+URL;VALUE=URI:https://www.meetup.com/Agila-Testare/events/248730885/
+END:VEVENT
+BEGIN:VEVENT
+UID:mt7y@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180523T153000Z
+SUMMARY:#SUGMLM Grand Opening - Sitecore User Group Malmö
+URL;VALUE=URI:https://www.meetup.com/Sitecore-User-Group-Malmo/events/2490
+ 24800/
+END:VEVENT
+BEGIN:VEVENT
+UID:qkbb@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180523T153000Z
+SUMMARY:Women in IT - Event #11 - Women in IT Meetup
+URL;VALUE=URI:https://www.meetup.com/Women-in-IT-Meetup/events/249948486/
+END:VEVENT
+BEGIN:VEVENT
+UID:sjqs@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180524T070000Z
+SUMMARY:🚀 Effective Java Software Design for Developers | Stockholm\, May
+  - 🚀 Effective Java Training Stockholm
+URL;VALUE=URI:https://www.meetup.com/Effective-Java-training-Stockholm/eve
+ nts/249120404/
+END:VEVENT
+BEGIN:VEVENT
+UID:9sex@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180524T170000Z
+SUMMARY:BOSS of the SOC - Stockholm Splunk Meetup
+URL;VALUE=URI:https://www.meetup.com/Stockholm-Splunk-Meetup/events/249592
+ 190/
+END:VEVENT
+BEGIN:VEVENT
+UID:isvv@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180526T073000Z
+SUMMARY:Get together/hack-meeting 18.05 + ULUG annual meeting - Uppsala Li
+ nux User Group
+URL;VALUE=URI:https://www.meetup.com/Uppsala-Linux-User-Group/events/25003
+ 3688/
+END:VEVENT
+BEGIN:VEVENT
+UID:ujoq@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180530T142000Z
+SUMMARY:Startup Live in Malmö! - Malmö Startups
+URL;VALUE=URI:https://www.meetup.com/Malmo-Startups/events/249451574/
+END:VEVENT
+BEGIN:VEVENT
+UID:wrgw@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180530T150000Z
+SUMMARY:May 2018 Meetup! - Stockholm RegTech Meetup
+URL;VALUE=URI:https://www.meetup.com/Stockholm-RegTech-Meetup/events/24899
+ 3807/
+END:VEVENT
+BEGIN:VEVENT
+UID:fxmh@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180531T083000Z
+SUMMARY:Symetri Engineering Forum - Borlänge
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/symetri-engineering-forum-bor
+ lange-registrering-43931974719?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:c92k@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180531T150000Z
+SUMMARY:Deep Learning - En djupdykning - DevForum-Stockholm
+URL;VALUE=URI:https://www.meetup.com/DevForum/events/249667642/
+END:VEVENT
+BEGIN:VEVENT
+UID:i8sv@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180531T153000Z
+SUMMARY:Meetup #4 - Software Dev Linköping
+URL;VALUE=URI:https://www.meetup.com/SoftwareDevLinkoping/events/246961092
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:zjyp@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180601T080000Z
+SUMMARY:Gratis expertfrukost: Matomo webbanalys
+URL;VALUE=URI:https://www.eventbrite.com/e/gratis-expertfrukost-matomo-web
+ banalys-registrering-44634990458?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:l431@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180606T150000Z
+SUMMARY:HR-Tech Meetup - Stockholm HR-Tech Meetup
+URL;VALUE=URI:https://www.meetup.com/Stockholm-HR-Tech-Meetup/events/24879
+ 9252/
+END:VEVENT
+BEGIN:VEVENT
+UID:qxbi@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180607T143000Z
+SUMMARY:Early Summer Meetup - Sitecore User Group - Gothenburg
+URL;VALUE=URI:https://www.meetup.com/Sitecore-User-Group-Gothenburg/events
+ /249832047/
+END:VEVENT
+BEGIN:VEVENT
+UID:r96u@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180607T160000Z
+SUMMARY:Reflections on testing Machine Learning systems - Passion for Test
+ ing - Gothenburg
+URL;VALUE=URI:https://www.meetup.com/Passion-for-testing-Goteborg/events/2
+ 49973695/
+END:VEVENT
+BEGIN:VEVENT
+UID:wr2p@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180608T053000Z
+SUMMARY:To be confirmed - Agila Ledare
+URL;VALUE=URI:https://www.meetup.com/Agila-Ledare/events/246637961/
+END:VEVENT
+BEGIN:VEVENT
+UID:o9lb@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180612T163000Z
+SUMMARY:Scrum Beers Göteborg
+URL;VALUE=URI:https://www.meetup.com/Scrum-beers-Goteborg/events/248799857
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:girz@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180613T153000Z
+SUMMARY:GDG Android Summer 2018 - GDG Stockholm Android
+URL;VALUE=URI:https://www.meetup.com/STHLM-Android/events/249932016/
+END:VEVENT
+BEGIN:VEVENT
+UID:q0ju@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180613T153000Z
+SUMMARY:SAFe Meetup - Göteborg Scaled Agile Framework Meetup
+URL;VALUE=URI:https://www.meetup.com/Goteborg-Scaled-Agile-Framework-Meetu
+ p/events/249469680/
+END:VEVENT
+BEGIN:VEVENT
+UID:p1f9@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180618T170000Z
+SUMMARY:Keysigningparty juni - IX Stockholm / ix.ufs.se
+URL;VALUE=URI:https://www.meetup.com/IX-Stockholm/events/246716506/
+END:VEVENT
+BEGIN:VEVENT
+UID:v4tn@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180620T120000Z
+SUMMARY:OpenStack Forum #3 - OpenStack User Group Sweden
+URL;VALUE=URI:https://www.meetup.com/OpenStack-User-Group-Sweden/events/24
+ 9868407/
+END:VEVENT
+BEGIN:VEVENT
+UID:rcrj@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180901T083000Z
+SUMMARY:SharePoint Saturday Stockholm 2018
+URL;VALUE=URI:https://www.eventbrite.com/e/sharepoint-saturday-stockholm-2
+ 018-tickets-44177336603?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:dx17@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180910T090000Z
+SUMMARY:30th Annual Congress on Nanotechnology and Nanomaterials
+URL;VALUE=URI:https://www.eventbrite.com/e/30th-annual-congress-on-nanotec
+ hnology-and-nanomaterials-tickets-45284100965?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:xafs@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180917T130000Z
+SUMMARY:TRANSCOM/IG3IS meeting
+URL;VALUE=URI:https://www.eventbrite.com/e/transcomig3is-meeting-registrat
+ ion-44534568092?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:6pxl@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20180921T080000Z
+SUMMARY:2018 International Conference on Cyber Physical Systems and IoT(CP
+ SIOT 2018)
+URL;VALUE=URI:https://www.eventbrite.sg/e/2018-international-conference-on
+ -cyber-physical-systems-and-iotcpsiot-2018-tickets-41810564524?aff=ebapi
+END:VEVENT
+BEGIN:VEVENT
+UID:4ogx@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20181009T060000Z
+SUMMARY:OpenStack Days Nordic - Stockholm 2018 - OpenStack User Group Swed
+ en
+URL;VALUE=URI:https://www.meetup.com/OpenStack-User-Group-Sweden/events/24
+ 8260324/
+END:VEVENT
+BEGIN:VEVENT
+UID:2ygz@swedishtechevents.com
+SEQUENCE:0
+DTSTAMP:20180423T065419Z
+DTSTART:20181023T180000Z
+SUMMARY:Nordic Smart Cities 2018
+URL;VALUE=URI:https://www.eventbrite.co.uk/e/nordic-smart-cities-2018-tick
+ ets-41379951549?aff=ebapi
+END:VEVENT
+END:VCALENDAR
