@@ -67,3 +67,7 @@ a {
 ::placeholder { /* Most modern browsers support this now. */
   color:#aaa;
 }
+
+.strikethrough {
+  text-decoration: line-through;
+}

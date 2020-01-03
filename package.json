@@ -5,13 +5,13 @@
   "dependencies": {
     "bulma": "^0.6.2",
     "font-awesome": "^4.7.0",
-    "history": "^4.7.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1",
+    "history": "^4.10.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^1.1.1",
     "react-select": "^1.2.1",
     "tinytime": "^0.2.6",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^2.0.4"
   },
   "scripts": {
     "predeploy": "npm run build",

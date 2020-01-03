@@ -14,7 +14,7 @@ export default props => (
         <p>
           Events are fetched from{' '}
           <a href="https://www.meetup.com/">meetup.com</a> and{' '}
-          <a href="https://www.eventbrite.com/">eventbrite.com</a> that is
+          <a href="https://www.eventbrite.com/" className="strikethrough">eventbrite.com</a> (<a href="https://github.com/swedishtechevents/updater/issues/7">#7</a>) that is
           categorized with tech and from our GitHub every hour.{' '}
           <a
             href="https://github.com/swedishtechevents/events/issues/new"
