@@ -236,6 +236,7 @@ export default class Events extends React.Component {
                 <input
                   id="search"
                   type="search"
+                  aria-label="Search"
                   placeholder="Search..."
                   defaultValue={search}
                   onChange={event => {
