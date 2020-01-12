@@ -188,8 +188,10 @@ export default class Events extends React.Component {
             placeholder="Select month..."
             value={month}
             onChange={value => {
+              const newMonth = parseInt(value, 10);
+
               this.setState({
-                month: parseInt(value, 10),
+                month: isNaN(newMonth) ? '' : newMonth,
               });
 
               this.props.history.push({
