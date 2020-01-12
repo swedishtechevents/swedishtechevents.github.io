@@ -14,7 +14,7 @@ const toQuery = obj => {
   let query = '?';
 
   for (let key in obj) {
-    query += key + '=' + obj[key] + '&';
+    query += key + '=' + (obj[key] ? obj[key] : '') + '&';
   }
 
   return query.slice(0, -1);
@@ -188,10 +188,8 @@ export default class Events extends React.Component {
             placeholder="Select month..."
             value={month}
             onChange={value => {
-              const newMonth = parseInt(value, 10);
-
               this.setState({
-                month: isNaN(newMonth) ? '' : newMonth,
+                month: parseInt(value, 10),
               });
 
               this.props.history.push({
