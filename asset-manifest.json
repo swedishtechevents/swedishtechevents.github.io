@@ -1,11 +1,26 @@
 {
-  "main.css": "static/css/main.7f689a4a.css",
-  "main.css.map": "static/css/main.7f689a4a.css.map",
-  "main.js": "static/js/main.0f763c71.js",
-  "main.js.map": "static/js/main.0f763c71.js.map",
-  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
-  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
-  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
-  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff"
+  "files": {
+    "main.css": "/static/css/main.1ac436de.chunk.css",
+    "main.js": "/static/js/main.4207bab8.chunk.js",
+    "main.js.map": "/static/js/main.4207bab8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ddb9ed25.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ddb9ed25.js.map",
+    "static/css/2.23cfae6a.chunk.css": "/static/css/2.23cfae6a.chunk.css",
+    "static/js/2.dec9b836.chunk.js": "/static/js/2.dec9b836.chunk.js",
+    "static/js/2.dec9b836.chunk.js.map": "/static/js/2.dec9b836.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7f11fe831bccb7d3bba23939c4748d3d.js": "/precache-manifest.7f11fe831bccb7d3bba23939c4748d3d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.23cfae6a.chunk.css.map": "/static/css/2.23cfae6a.chunk.css.map",
+    "static/css/main.1ac436de.chunk.css.map": "/static/css/main.1ac436de.chunk.css.map",
+    "static/js/2.dec9b836.chunk.js.LICENSE": "/static/js/2.dec9b836.chunk.js.LICENSE",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddb9ed25.js",
+    "static/css/2.23cfae6a.chunk.css",
+    "static/js/2.dec9b836.chunk.js",
+    "static/css/main.1ac436de.chunk.css",
+    "static/js/main.4207bab8.chunk.js"
+  ]
 }
