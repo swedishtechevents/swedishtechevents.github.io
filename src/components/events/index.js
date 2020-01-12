@@ -227,12 +227,12 @@ export default class Events extends React.Component {
           />
         </div>
         <div className="column">
-          <div className="Select is-clearable is-searchable Select--single">
+          <div className="search">
             <label htmlFor="search" className="visually-hidden">
               Search
             </label>
-            <div className="Select-control">
-              <div className="Select-input">
+            <div className="search-control">
+              <div className="search-input">
                 <input
                   id="search"
                   type="search"
