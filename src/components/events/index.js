@@ -138,8 +138,8 @@ export default class Events extends React.Component {
     if (search.length) {
       listEvents = listEvents.filter(event => {
         return (
-          event.title.toLowerCase().indexOf(search) !== -1 ||
-          ('' + event.description).toLowerCase().indexOf(search) !== -1
+          event.title.trim().toLowerCase().indexOf(search) !== -1 ||
+          ('' + event.description).trim().toLowerCase().indexOf(search) !== -1
         );
       });
     }
