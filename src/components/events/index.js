@@ -166,6 +166,7 @@ export default class Events extends React.Component {
     // Get cities to use for filter dropdown.
     const cities = Array.from(new Set(events.map(event => event.city)))
       .sort((a, b) => a.localeCompare(b))
+      .filter(c => c)
       .map(c => {
         return {
           label: c,
