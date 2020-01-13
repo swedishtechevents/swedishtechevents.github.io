@@ -10,7 +10,7 @@ export default ({ event }) => (
       className="card"
     >
       <div className="card-header">
-        <h3 className="card-header-title">{event.title}</h3>
+        <h3 className="card-header-title break-all">{event.title}</h3>
       </div>
       <div className="card-content">
         <div className="content">
@@ -44,7 +44,7 @@ export default ({ event }) => (
               </div>
             )}
           </div>
-          <div>{event.description || ''}</div>
+          <div className="break-all">{event.description || ''}</div>
         </div>
       </div>
     </a>

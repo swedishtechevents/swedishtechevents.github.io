@@ -110,3 +110,7 @@ a {
   padding: 9px 0 12px;
   -webkit-appearance: none;
 }
+
+.break-all {
+  word-break: break-all;
+}
