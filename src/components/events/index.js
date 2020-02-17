@@ -91,7 +91,7 @@ export default class Events extends React.Component {
     // Get all events that hasn't passed (api may not up date)
     // and that have a title.
     let events = this.state.events.filter(event => {
-      if (event.date < +todaysDate) {
+      if (event.time < +todaysDate) {
         return false;
       }
 
@@ -104,7 +104,7 @@ export default class Events extends React.Component {
 
     // Sort by date.
     events = events.sort((a, b) => {
-      return a.date - b.date;
+      return a.time - b.time;
     });
 
     // Clean up city.
@@ -123,7 +123,7 @@ export default class Events extends React.Component {
     // Filter by month if any.
     if (month && !isNaN(month)) {
       listEvents = listEvents.filter(event => {
-        return parseInt(month, 10) === new Date(event.date).getMonth() + 1;
+        return parseInt(month, 10) === new Date(event.time).getMonth() + 1;
       });
     }
 
@@ -146,14 +146,14 @@ export default class Events extends React.Component {
 
     // Sort by date.
     listEvents = listEvents.sort((a, b) => {
-      return a.date - b.date;
+      return a.time - b.time;
     });
 
     // Get months to use for filter dropdown.
     const months = Array.from(
       new Set(
         events.map(event =>
-          tinytime('{MMMM}-{Mo}').render(new Date(event.date)),
+          tinytime('{MMMM}-{Mo}').render(new Date(event.time)),
         ),
       ),
     ).map(d => {

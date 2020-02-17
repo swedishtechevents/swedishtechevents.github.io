@@ -20,14 +20,12 @@ export default ({ event }) => (
             </span>
             <time
               className="tag is-light is-medium"
-              dateTime={tinytime('{YYYY}-{Mo}-{DD}', { padMonth: true }).render(
-                new Date(event.date),
-              )}
+              dateTime={event.date.split(' ').shift()}
             >
               {tinytime('{DD} {MMMM} {YYYY}, {H}:{mm}', {
                 padMonth: true,
                 padHours: true,
-              }).render(new Date(event.date))}
+              }).render(new Date(Date.parse(event.date)))}
             </time>
             &nbsp;
             <span className="tag is-link is-medium">
